@@ -256,12 +256,16 @@ body.is-black{
     color: var(--invert-text-color);
 }
 
+/* --invert-primary-color: #9153F4;
+--invert-text-color: #FFFFFF;
+--invert-bg-color: #2B3137; */
+
 .is-black .header-menu__link{
     color:var(--invert-text-color);
 }
 
 .is-black .header-menu__link:after{
-    color:var(--invert-primary-color);
+    background: var(--invert-primary-color);
 }
 
 .is-black .header_moon{
