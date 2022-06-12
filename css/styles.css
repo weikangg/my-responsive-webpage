@@ -22,7 +22,10 @@
 body{
     min-height: 100vh; /* 100% of the viewport/available height */
     font-family: Montserrat;
-    background-color: var(--white-color);
+    background: url("../images/cool-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     transition: .3s;
 }
 
@@ -43,7 +46,7 @@ ul{
 
 .header{
     padding: 23px 0;
-    background: var(--white-color);
+    /* background: var(--white-color); */
     box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
     transition: .3s;
     position: sticky;
@@ -142,7 +145,7 @@ ul{
 }
 
 .intro__content{
-    max-width: 500px;
+    max-width: 505px;
     width: 100%;
     padding-right: 20px;
 }
@@ -170,6 +173,8 @@ ul{
     color: var(--primary-color);
     transition: .3s;
 }
+
+
 
 .intro__position{
     display: block;
