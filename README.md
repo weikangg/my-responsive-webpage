@@ -1,5 +1,6 @@
 # my-responsive-webpage
 
+# Learning points
 - Boxicons websites has cool icons to use from
 - Importing google fonts
 - Dark & Light Mode Implementation
